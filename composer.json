@@ -6,9 +6,15 @@
         "AFL-3.0"
     ],
     "autoload": {
-        "files": [ "registration.php" ],
+        "files": [
+            "registration.php"
+        ],
         "psr-4": {
             "Hhennes\\Cms\\": ""
         }
+    },
+    "require": {
+        "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0||~8.5.0",
+        "magento/framework": ">=103.0.4 <104"
     }
 }
