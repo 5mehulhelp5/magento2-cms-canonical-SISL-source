@@ -14,8 +14,7 @@ Maintained fork of `hhennes/module-cms`, verified on **Magento 2.4.9 / PHP 8.4**
 ## Install
 
 ```bash
-composer config repositories.cmscanon vcs https://github.com/SISL-source/magento2-cms-canonical
-composer require hhennes/module-cms:dev-main
+composer require sisl-source/magento2-cms-canonical
 bin/magento setup:upgrade
 ```
 
